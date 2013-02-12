@@ -2,13 +2,13 @@ Source: r-cran-genomicfeatures
 Section: gnu-r
 Priority: optional
 Maintainer: The Genome Institute <gmt@genome.wustl.edu>
-Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-biocgenerics, r-bioc-iranges, r-bioc-genomicranges, r-bioc-annotationdbi, r-bioc-biostrings, r-cran-rtracklayer, r-bioc-biomart, r-cran-rcurl, r-bioc-biobase
-Homepage: http://www.bioconductor.org/packages/2.11/bioc/html/BiocGenerics.html
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-biocgenerics (>= 0.1.0), r-cran-iranges (>= 1.15.35), r-cran-genomicranges (>= 1.9.66), r-cran-annotationdbi (>= 1.19.36), r-cran-biostrings (>= 2.23.2), r-cran-biomart, r-cran-rcurl, r-cran-biobase (>= 2.15.1), r-cran-rtracklayer (>= 1.15.1)
+Homepage: http://www.bioconductor.org/packages/2.11/bioc/html/GenomicFeatures.html
 
 Package: r-cran-genomicfeatures
 Architecture: all
 Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
 Description: A set of tools and methods for making and manipulating transcript centric annotations. With these tools the user can easily download the genomic locations of the transcripts, exons and cds of a given organism, from either the UCSC Genome Browser or a BioMart database (more sources will be supported in the future). This information is then stored in a local database that keeps track of the relationship between transcripts, exons, cds and genes. Flexible methods are provided for extracting the desired features in a convenient format.
 License: Artistic2.0
-Depends: r-base-core, r-cran-biocgenerics, r-bioc-iranges, r-bioc-genomicranges, r-bioc-annotationdbi, r-bioc-biostrings, r-cran-rtracklayer, r-bioc-biomart, r-cran-rcurl, r-bioc-biobase
+Depends: r-base-core, r-cran-biocgenerics (>= 0.1.0), r-cran-iranges (>= 1.15.35), r-cran-genomicranges (>= 1.9.66), r-cran-annotationdbi (>= 1.19.36), r-cran-biostrings (>= 2.23.2), r-cran-biomart, r-cran-rcurl, r-cran-biobase (>= 2.15.1), r-cran-rtracklayer (>= 1.15.1)
 
